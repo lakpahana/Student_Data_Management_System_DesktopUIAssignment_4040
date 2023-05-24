@@ -1,0 +1,91 @@
+﻿<Application x:Class="Student_Data_Management_System_DesktopUIAssignment.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Student_Data_Management_System_DesktopUIAssignment"
+             StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="NavRow" TargetType="Border">
+            <Setter Property="Background" Value="#446DF6"></Setter>
+            
+        </Style>
+
+        <Style x:Key="xTitle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="40"></Setter>
+            <Setter Property="Margin" Value="10 15 0 0"></Setter>
+            <Setter Property="TextAlignment" Value="Center"></Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+        </Style>
+
+        <Style x:Key="xTitle2" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontSize" Value="25"></Setter>
+            <Setter Property="TextAlignment" Value="Left"></Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+            <Setter Property="Margin" Value="0 0 10 0"></Setter>
+        </Style>
+        
+        
+
+        <Style x:Key="shutdownBtn" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="Foreground" Value="WhiteSmoke"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            
+        </Style>
+        <Style x:Key="addABtn" TargetType="Button">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Margin" Value="0 0 5 0"></Setter>
+            <Setter Property="Background" Value="#8288ff"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            
+
+        </Style>
+
+        <Style x:Key="uploadBtn" TargetType="Button">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Margin" Value="0 0 0 0"></Setter>
+            <Setter Property="Background" Value="Green"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="FontSize" Value="10"></Setter>
+
+        </Style>
+        <Style x:Key="homebtn" TargetType="Button">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Margin" Value="0 0 150 0"></Setter>
+            <Setter Property="Background" Value="White">
+                </Setter>
+                <Setter Property="Foreground" Value="White"></Setter>
+                <Setter Property="BorderThickness" Value="0"></Setter>
+
+        </Style>
+
+        <Style x:Key="userDetails" TargetType="Border">
+            <Setter Property="Background" Value="Transparent"></Setter>
+         <Setter Property="HorizontalAlignment" Value="Center"/>
+            
+            
+            
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+        </Style>
+
+        <Style x:Key="userTB" TargetType="TextBlock">
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+
+        </Style>
+    </Application.Resources>
+</Application>

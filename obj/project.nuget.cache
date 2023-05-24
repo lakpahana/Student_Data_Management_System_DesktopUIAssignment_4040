@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "I4tOsICJewYG4PQUbSNSfskxLLw0CaRwYyurBzbN0S4R2ZNFM2KGv6kkrYjlA7P7CIK8nkYbKOaCLxPS7qoc2g==",
+  "success": true,
+  "projectFilePath": "G:\\Lec Recordings\\3rd\\GUI\\Student_Data_Management_System_DesktopUIAssignment\\Student_Data_Management_System_DesktopUIAssignment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lakpahana\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
+    "C:\\Users\\Lakpahana\\.nuget\\packages\\mahapps.metro.iconpacks.material\\4.11.0\\mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}

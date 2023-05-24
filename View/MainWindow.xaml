@@ -1,0 +1,155 @@
+﻿<Window x:Class="Student_Data_Management_System_DesktopUIAssignment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Student_Data_Management_System_DesktopUIAssignment.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1080"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True" Background="Transparent"
+        ResizeMode="NoResize">
+    <Window.DataContext>
+        <local:MainWindowVM></local:MainWindowVM>
+    </Window.DataContext>
+    <Border Background="#f7f6fb">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.3*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Style="{StaticResource ResourceKey=NavRow}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.9*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0"  Orientation="Horizontal">
+                       
+                                <Image Source="/img/logo.png" Width="100" Height="70"></Image>
+                           
+                        <TextBlock  Style="{StaticResource ResourceKey=xTitle}">University of Ruhuna</TextBlock>
+
+                    </StackPanel>
+                    <Button Grid.Column="1" Style="{StaticResource ResourceKey=shutdownBtn}"
+                            
+                            Command="{Binding Path=CloseWindowCommand}">
+                        <Icon:PackIconMaterial Kind="Logout" Height="40" Width="40"></Icon:PackIconMaterial>
+                    </Button>
+                   
+                </Grid>
+            </Border>
+            <Border Grid.Row="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+
+                        <ColumnDefinition Width="0.8*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    
+                        <Grid Grid.Column="0" Margin="0 0 10 0" Background="Transparent">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="8*"></RowDefinition>
+
+                        </Grid.RowDefinitions>
+                            <Border  Grid.Row="0" Background="White" Margin="0 10 0 10">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+
+                                <Button Style="{StaticResource homebtn}" IsEnabled="False">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Icon:PackIconMaterial Kind="Home"></Icon:PackIconMaterial>
+                                        <TextBlock Margin="10 0 0 0">Home</TextBlock>
+                                    </StackPanel>
+
+                                </Button>
+
+
+                                <Button Style="{StaticResource addABtn}" 
+                                        Command="{Binding Path=AddaStudentCommand}">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Icon:PackIconMaterial Kind="Plus"></Icon:PackIconMaterial>
+                                        <TextBlock Margin="10 0 0 0">Add a Student</TextBlock>
+                                    </StackPanel>
+                                   
+                                </Button>
+                                <Button Style="{StaticResource addABtn}" IsEnabled="True" Background="#fe9c54"
+                                        Command="{Binding Path=EditaStudentCommand}">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Icon:PackIconMaterial Kind="AccountEdit"></Icon:PackIconMaterial>
+                                        <TextBlock Margin="10 0 0 0">Edit a Student</TextBlock>
+                                    </StackPanel>
+
+                                </Button>
+                                <Button Style="{StaticResource addABtn}" 
+                                       Command="{Binding Path=DeleteaStudentCommand}" IsEnabled="True" Background="#fe6762">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Icon:PackIconMaterial Kind="Delete"></Icon:PackIconMaterial>
+                                        <TextBlock Margin="10 0 0 0">Delete a Student</TextBlock>
+                                    </StackPanel>
+
+                                </Button>
+                            </StackPanel>
+    
+                            </Border>
+                        <Border Grid.Row="1" Background="White"  Margin="0 10 0 10">
+                            <DataGrid CanUserAddRows="False" IsReadOnly="True" x:Name="DataGrid" SelectionChanged="DataGrid_Selected" ItemsSource="{Binding Students}" AutoGenerateColumns="False" SelectedItem="{Binding SelectedStudent,UpdateSourceTrigger=PropertyChanged}">
+                                <DataGrid.Columns>
+                                    <DataGridTemplateColumn Header="Student Picture">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Image Source="{Binding ImageAddress}" Width="50" Height="50" />
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                    <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" />
+                                    <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" />
+                                    <DataGridTextColumn Header="Date of Birth" Binding="{Binding DateOfBirth, StringFormat=\{0:dd/MM/yyyy\}}" />
+                                    <DataGridTextColumn Header="GPA" Binding="{Binding Gpa}" />
+
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Border>
+                                                                         
+                        </Grid>
+                        
+                        
+                        
+                    
+
+                    <Border Grid.Column="1" Background="White" Margin="10 0 0 0">
+                        <Border Style="{StaticResource userDetails}" x:Name="uDetails">
+                            <StackPanel Orientation="Vertical">
+                                <!--<TextBlock Foreground="Black">Select a Student</TextBlock>-->
+                                <Border Width="150" Height="150" CornerRadius="50" Margin="0 0 0 10">
+                                    <Image x:Name="imgProfi" Source="/img/2.png" Stretch="UniformToFill">
+                                        <Image.Clip>
+                                            <EllipseGeometry 
+                                                RadiusX="150" 
+                                                RadiusY="150" 
+                                                Center="50,50"/>
+                                        </Image.Clip>
+                                    </Image>
+                                </Border>
+
+                                <TextBlock x:Name="fName" Style="{StaticResource userTB}"></TextBlock>
+                                <TextBlock  Style="{StaticResource userTB}" x:Name="lName">Select a Student to view details.</TextBlock>
+                                <TextBlock  Style="{StaticResource userTB}" x:Name="dOb"></TextBlock>
+                                <TextBlock  Style="{StaticResource userTB}" x:Name="gPA"></TextBlock>
+                          
+                            </StackPanel>
+                        </Border>
+                    </Border>
+
+
+                </Grid>
+                
+            </Border>
+        </Grid>
+    </Border>
+</Window>
