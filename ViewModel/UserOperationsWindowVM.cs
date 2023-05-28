@@ -72,7 +72,7 @@ namespace Student_Data_Management_System_DesktopUIAssignment.ViewModel
                 Student student = new Student(firstNme, lastName, gpa, dateOfBirth, imageUrl);
                 if (student.Validate())
                 {
-                    StudentsList[StudentsList.IndexOf(SelectedStudent)] = new Student(firstNme, lastName, gpa, dateOfBirth, imageUrl);
+                    StudentsList.Add(student);
                     CancelOperation();
 
                 }
