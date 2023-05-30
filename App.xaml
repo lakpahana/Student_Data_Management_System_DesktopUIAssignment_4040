@@ -43,11 +43,25 @@
             <Setter Property="HorizontalAlignment" Value="Right"></Setter>
             <Setter Property="Width" Value="150"></Setter>
             <Setter Property="Height" Value="40"></Setter>
-            <Setter Property="Margin" Value="0 0 5 0"></Setter>
+                        <Setter Property="Margin" Value="0 0 5 0"></Setter>
             <Setter Property="Background" Value="#8288ff"></Setter>
             <Setter Property="Foreground" Value="White"></Setter>
             <Setter Property="BorderThickness" Value="0"></Setter>
+           
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="0 0 0 1"
+                                CornerRadius="14">
+                            
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
             
+
 
         </Style>
 

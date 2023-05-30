@@ -55,8 +55,8 @@ namespace Student_Data_Management_System_DesktopUIAssignment.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Student_Data_Management_System_DesktopUIAssignment;V1.0.0.0;component/view/usero" +
-                    "perationswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Student_Data_Management_System_DesktopUIAssignment;component/view/useroperations" +
+                    "window.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\UserOperationsWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

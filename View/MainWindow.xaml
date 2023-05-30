@@ -69,12 +69,12 @@
 
                                 </Button>
 
-                                <Border  Style="{StaticResource roundBorderBtn}">       
+                                <Border >       
                                 <Button Style="{StaticResource addABtn}" 
                                         Command="{Binding Path=AddaStudentCommand}">
                                     <StackPanel Orientation="Horizontal">
                                         <Icon:PackIconMaterial Kind="Plus"></Icon:PackIconMaterial>
-                                        <TextBlock Margin="10 0 0 0">Add a Student</TextBlock>
+                                        <TextBlock  Margin="10 0 0 0">Add a Student</TextBlock>
                                     </StackPanel>
                                    
                                 </Button>
