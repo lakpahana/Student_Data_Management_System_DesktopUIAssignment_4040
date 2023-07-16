@@ -40,7 +40,7 @@ namespace Student_Data_Management_System_DesktopUIAssignment.ViewModel
             students.Add(new Student("Saj", "Avs", 10.32, DateTime.Now, "\\img\\2.png"));
             students.Add(new Student("Saj", "Avs", 10.32, DateTime.Now, "\\img\\1.png"));
             students.Add(new Student("Saj", "Avs", 10.32, DateTime.Now, "\\img\\4.png"));
-
+            
         }
 
         [RelayCommand]

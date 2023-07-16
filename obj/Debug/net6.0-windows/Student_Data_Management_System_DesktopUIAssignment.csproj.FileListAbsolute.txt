@@ -1,9 +1,3 @@
-G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment.csproj.AssemblyReference.cache
-G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\View\UserOperationsWindow.g.cs
-G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\App.g.cs
-G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
-G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment_MarkupCompile.cache
-G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment_MarkupCompile.lref
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\bin\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment.exe
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\bin\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment.deps.json
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\bin\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment.runtimeconfig.json
@@ -12,7 +6,15 @@ G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\bin
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Core.dll
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\bin\Debug\net6.0-windows\MahApps.Metro.IconPacks.Material.dll
+G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment.csproj.AssemblyReference.cache
+G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\View\MainWindow.g.cs
+G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\View\UserOperationsWindow.g.cs
+G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\App.g.cs
+G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment_MarkupCompile.cache
+G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment_MarkupCompile.lref
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\App.baml
+G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\View\MainWindow.baml
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\View\UserOperationsWindow.baml
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment.g.resources
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment.GeneratedMSBuildEditorConfig.editorconfig
@@ -25,5 +27,3 @@ G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment.pdb
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\Student_Data_Management_System_DesktopUIAssignment.genruntimeconfig.cache
 G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\ref\Student_Data_Management_System_DesktopUIAssignment.dll
-G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\View\MainWindow.g.cs
-G:\Lec Recordings\3rd\GUI\Student_Data_Management_System_DesktopUIAssignment\obj\Debug\net6.0-windows\View\MainWindow.baml
